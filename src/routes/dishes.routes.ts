@@ -2,7 +2,7 @@ import express, { Request, Response } from "express";
 import {
   getAllDishes, addDishes, removeDishes, changeDish
 } from "../controllers/dishes.controllers"
-var bcrypt = require("bcrypt");
+import bcrypt from "bcrypt"
 
 const router = express.Router();
 

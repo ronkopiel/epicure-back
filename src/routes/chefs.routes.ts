@@ -2,7 +2,7 @@ import express, { Request, Response } from "express";
 import {
   getAllChefs, addChefs, removeChefs, changeChef
 } from "../controllers/chefs.controllers";
-var bcrypt = require("bcrypt");
+import bcrypt from "bcrypt"
 
 const router = express.Router();
 
